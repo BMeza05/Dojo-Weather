@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 0 150px;
+}
+.weatherbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightsteelblue;
+    color: whitesmoke;
+    font-size: 30px;
+    height: 100px;
+    padding: 0 50px;
+}
+
+.city-link{
+    display: flex;
+    align-items: center;
+    font-size: 37px;
+    justify-content: space-between;
+    width: 800px;
+}
+.links{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 5px black;
+}
+.degrees{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+.Forecast{
+    display: flex;
+    justify-content: space-between;
+}
+.today{
+    background: rgb(199, 196, 196);
+    text-align: center;
+}
+.temps1{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+}
+.temp1{
+    padding: 0 10px;
+    color: red;
+}
+.temp2{
+    color: blue;
+}
+.tomorrow{
+    background: rgb(199, 196, 196);
+    text-align: center;
+}
+.temps2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.Friday{
+    background: rgb(199, 196, 196);
+    text-align: center;
+}
+.temps3{
+    display: flex;
+    justify-content: center;
+}
+.saturday{
+    background: rgb(199, 196, 196);
+    text-align: center;
+}
+.temps4{
+    display: flex;
+    justify-content: center;
+}
+.cookiebar{
+    justify-content: center;
+    border: 5px solid black;
+    height: 150px;
+    text-align: left;
+    padding-left: 250px;
+    position: fixed;
+    width: 1345px;
+}
+.button{
+    background-color: cornflowerblue;
+    font-size: 35px
+}

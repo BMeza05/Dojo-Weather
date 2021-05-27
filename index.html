@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weatherbar">
+        <h1>Dojo Weather</h1>
+        <div class="city-link">
+            <a class="links" id="city" onclick="dispAlert()" href="#">Burbank</a>
+            <a class="links" id="city2" onclick="dispAlert2()" href="#">Dallas</a>
+            <a class="links" id="city3" onclick="dispAlert3()" href="#">Chicago</a>
+        </div>
+    </div>
+    <div class="container">
+
+    <div class="top-row">
+        <h1>San Jose</h1>
+        <div class="degrees">
+            <h3>Show temperature In</h3>
+            <select name="degrees" id="degrees">
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celcius">Celcius</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="Forecast">
+        <div class="today">
+            <h1>Today</h1>
+            <img src="./assets/some_rain.png" alt="Rainy cloud">
+            <h3>some rain</h3>
+            <div class="temps1">
+                <h2 class="temp1">23.9</h2>
+                <h2 class="temp2">18.3</h2>
+            </div>
+        </div>
+        <div class="tomorrow">
+            <h1>Tomorrow</h1>
+            <img src="./assets/some_sun.png" alt="Sun">
+            <h3>some sun</h3>
+            <div class="temps2">
+                <h2 class="temp1">26.7</h2>
+                <h2 class="temp2">16.1</h2>
+                </div>
+        </div>
+        <div class="Friday">
+            <h1>Friday</h1>
+            <img src="./assets/some_clouds.png" alt="Cloudy">
+            <h3>some clouds</h3>
+            <div class="temps3">
+                <h2 class="temp1">20.6</h2>
+                <h2 class="temp2">16.1</h2>
+            </div>
+        </div>
+        <div class="saturday">
+            <h1>Saturday</h1>
+            <img src="./assets/some_sun.png" alt="Sunny">
+            <h3>some sun</h3>
+            <div class="temps4">
+                <h2 class="temp1">25.6</h2>
+                <h2 class="temp2">21.1</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookie" class="cookiebar">
+        <h1>Just so you know...</h1>
+            <span>We're totally gonna sell your data and steal your identity. Click the Accept button and forget you saw this. <a href="#">Read more</a></span>
+            <button class="button" onclick="removecookie()">I Accept</button>
+        </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
